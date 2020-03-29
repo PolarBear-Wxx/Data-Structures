@@ -110,6 +110,10 @@ public class Array<E> {
         data[index] = e;
     }
 
+    E getLast(){
+       return get(size - 1);
+    }
+
     E get(int index) {
         if(index < 0 || index >size - 1){
             throw new IllegalArgumentException("Get failed. The index is illegal!");
