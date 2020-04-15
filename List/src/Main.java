@@ -10,5 +10,9 @@ public class Main {
 
         list.add(567, 3);
         System.out.println(list);
+        list.remoceFirst();
+        System.out.println(list);
+        list.removeLast();
+        System.out.println(list);
     }
 }

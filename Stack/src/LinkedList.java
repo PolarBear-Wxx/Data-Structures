@@ -122,7 +122,7 @@ public class LinkedList<E> {
 
         StringBuilder res = new StringBuilder();
 
-        res.append(String.format("LinkedList: size = %d\n", size));
+        //res.append(String.format("LinkedList: size = %d\n", size));
         Node cur = dummyHead.next;
         while(cur != null){
             res.append(cur + " -> ");
